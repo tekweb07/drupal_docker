@@ -1,0 +1,18 @@
+site/core
+site/vendor/
+site/modules/contrib
+site/themes/contrib
+site/profile/contrib
+# Ignore configuration files that may contain sensitive information.
+site/sites/*/settings*.php
+site/sites/*/services*.yml
+# Ignore paths that contain user-generated content.
+site/sites/*/files
+site/sites/*/private
+# Ignore SimpleTest multi-site environment.
+site/sites/simpletest
+*/settings*.php
+*/files
+*/private
+simpletest
+data
